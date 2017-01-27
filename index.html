@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+	<head>
+		<title>Utopic Flowers</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="Replicating Pinterest" content="true">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/w3.css">
+		<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">-->
+	</head>
+
+	<body class ="w3-content" style="max-width:960px">
+		<div class="w3-container">
+			<div class="w3-navitem">
+				<p class="logo-text">Utopic Flowers</p>
+				<p class="logo-caption">Free PSD Website Templates</p>
+			</div>
+			<input type="text" id="myInput" onkeyup="myFunction()" placeholder=""><div id='button-holder'><img src='images/search.png' /></div>
+			<div class="w3-navbar">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Style Demo</a></li>
+				<li><a href="#">Full Width</a></li>
+				<li><a href="#">Dropdown</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Gallery</a></li>
+			</div>
+		</div>
+		<div class="header">&nbsp;
+				<p class="header-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sem nisl, suscipit ac fermentum ac, ultrices quis mi. Pellentesque"</p>
+		</div>
+		<div class="w3-content w3-display-container" style="max-width: 960px">
+
+			<a class="w3-btn-floating w3-hover-dark-grey w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+			<a class="w3-btn-floating w3-hover-dark-grey w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+
+			<div class="w3-display-container mySlides">
+			  <img src="images/img1.jpg" style="width:100%">
+			  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.7">
+			    Trolltunga, Norway<br/>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			  </div>
+			</div>
+			<div class="w3-display-container mySlides">
+			  <img src="images/img2.jpg" style="width:100%">
+			  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.7">
+			    Northern Lights, Norway <br/>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			  </div>
+			</div>
+			<div class="w3-display-container mySlides">
+			  <img src="images/img3.jpg" style="width:100%">
+			  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black" style="opacity: 0.7">
+			    Beautiful Mountains <br/>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			  </div>
+			</div>
+				<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+					  showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+					  var i;
+					  var x = document.getElementsByClassName("mySlides");
+					  if (n > x.length) {slideIndex = 1}    
+					  if (n < 1) {slideIndex = x.length}
+					  for (i = 0; i < x.length; i++) {
+						 x[i].style.display = "none";  
+					  }
+					  x[slideIndex-1].style.display = "block";  
+					}
+				</script>
+			<div class="w3-row">
+				<div class="w3-third">
+					<img src="images/placeholder1.jpg"/>
+					<h5>Lorem Ipsum Dolor</h5>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. Cras nunc justo, eleifend ut magna at, luctus viverra turpis.</p>
+				</div>
+				<div class="w3-third">
+					<img src="images/placeholder2.jpg"/>
+					<h5>Lorem Ipsum Dolor</h5>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. Cras nunc justo, eleifend ut magna at, luctus viverra turpis.</p>	
+				</div>
+				<div class="w3-third">
+					<img src="images/placeholder3.jpg"/>
+					<h5>Lorem Ipsum Dolor</h5>
+					<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. Cras nunc justo, eleifend ut magna at, luctus viverra turpis.</p>
+				</div>
+			</div>
+			<div class="w3-row-padding">
+				<div class="w3-col s4">
+					<div class="w3-card w3-center">
+						<img src ="images/placeholder-1.jpg"/>
+						<h6> Lorem ipsum dolor </h6>
+						<p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. </p> 
+					</div>
+				</div>
+				<div class="w3-col s4">
+					<div class="w3-card w3-center">
+						<img src ="images/placeholder-2.jpg"/>
+						<h6> Lorem ipsum dolor </h6>
+						<p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. </p> 
+					</div>
+				</div>
+				<div class="w3-col s4">
+					<div class="w3-card w3-center">
+						<img src ="images/placeholder-3.jpg" />
+						<h6> Lorem ipsum dolor </h6>
+						<p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. </p> 
+					</div>
+				</div>
+			</div>
+			<div class="w3-row">
+				<div class="w3-container w3-quarter">
+					<h4>Contact Details</h4>
+					<p class="footer-content">Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit.<br/>Integer sit amet lacus<br/>
+					Tel:xxxxxxxxxxx<br/>
+					Fax:xxxxxxxxxxx<br/>
+					Email:contact@mydomain.com<br/>
+					</p>	
+				</div>
+				<div class="w3-container w3-quarter">
+					<h4>Quick Links</h4>
+					<li>Link Text Here</li>
+					<li>Link Text Here</li>
+					<li>Link Text Here</li>
+					<li>Link Text Here</li>
+				</div>
+				<div class="w3-container w3-quarter">
+					<h4>From The Blog</h4>
+					<h6>Blog Post Title</h6>
+					<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet lacus vitae lorem suscipit tincidunt. </p>
+				</div>
+				<div class="w3-container w3-quarter">
+					<h4>Grab our Newsletter</h4>
+					<form action="action_page.php">
+						  <input type="text" input id="formInput" name="name" value="Name">
+						  <br/>
+						  <input type="text" input id="formInput" name="email" value="Email">
+						  <br/>
+						  <input type="submit" input id="fomrSubmit" value="Submit" style="background-color:#dedede;border-radius:7px;margin-bottom:2%">
+					</form> 
+				</div>
+			</div>
+			<div class="footer">
+				<div id="textbox">
+					<p class="alignleft">Copyright © 2016. All rights reserved. Domain Name</p><p class="alignright">Template by<a href="https://in.linkedin.com/in/samrashaikh" target="_blank" style="text-decoration:none;"><color><font color="cyan"> Samra Shaikh</font></color></a></p>
+				</div><div style="clear:both;"></div>
+			</div>
+		</div>
+		
+</div>
+	</body>
+</html>

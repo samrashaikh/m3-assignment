@@ -1,0 +1,236 @@
+html{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+body{
+	margin:0;
+	width:100%;
+	height:100%;
+}
+p{
+ 	margin-top: 0;
+ }
+/*-- Content Wrapper --*/
+.w3-content{
+	border-right: 15px solid grey;
+	border-left: 15px solid grey;
+}
+
+/*-- Navigation --*/
+.w3-container{
+	border-top: 8px solid purple;
+	/*border-bottom: 1px solid red;*/
+	padding-bottom: 0 !important;
+}
+.w3-navitem{
+	float:left;
+	/*font-size: 1.5em;
+	border: 1px solid yellow;*/
+	height: 120px;
+	/*line-height: 1;*/
+	text-transform: uppercase;
+} 
+.logo-text{
+	margin-top:20%;
+	font-size: 1.7em !important;
+	text-align: center !important ;
+	line-height: 0 !important;	
+}
+.logo-caption{
+	font-size: 0.7em;
+	text-align: left;
+	line-height: 0 !important;
+}
+.w3-navbar{
+	width:auto;
+	text-transform: uppercase !important;
+	height: auto;
+	margin-top: 64px !important;
+	margin-left: 36% !important;
+	font-size: 0.8em;
+}
+#myInput{
+	background-color: #dedede;
+	float: right;
+	border-bottom-left-radius: 8px !important;
+	border-bottom-right-radius: 8px !important;
+}
+#button-holder{
+    margin-right: -21.5%;
+    float: right;
+}
+	
+/*-- Header --*/
+.header{
+	height: 100px;
+	background-color: #dedede;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+} 
+.header-text{
+	margin-left: 10% !important;
+	margin-right: 10% !important;
+}
+
+/*-- Banner Slider --*/
+.w3-content.w3-display-container{
+	border: none;
+}
+.w3-display-bottomright.w3-large.w3-container.w3-padding-16.w3-black{
+	border-top: none !important;
+}
+.w3-display-bottomright.w3-large.w3-container.w3-padding-16.w3-black{
+		height:80px;
+		width:250px;
+	}
+.w3-padding-16{
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+.w3-row{
+	padding: 4%;
+
+}
+.w3-row p{
+	font-size: 0.7em;
+	margin-left: 20%;
+}
+.w3-third h5{
+	color: purple;
+    margin-top: -18%;
+    margin-left: 20%;
+    /* margin-right: -21%; */
+}
+
+/*-- Cards --*/
+.w3-row-padding{
+	height: 430px;
+	background-color: #cdcdcd;
+}
+.w3-card{
+	margin-top: 15%;
+	/*border: 1px solid black;*/
+	background-color: #fff;
+}
+.w3-card img{
+	margin-top: 5%;
+}
+.card-content {
+	font-size:14px;
+	margin-left: 1%;
+}
+.w3-container.w3-quarter{
+	border: none;
+}
+.w3-container.w3-quarter p{
+	margin-left: 0;
+}
+.w3-container.w3-quarter li{
+	border-bottom: 2px solid grey;
+	list-style-type: none;
+	font-size: 0.7em;
+	line-height: 1.9 !important;
+}
+h4 {
+    font-size: 16px !important;
+}
+h6 {
+    color: purple;
+}
+
+/*-- Footer --*/
+.alignleft {
+    float: left;
+    margin-left: 6%;
+    color: #fff;
+    margin-top: 2%;
+    font-size: 0.8em;
+}
+.alignright {
+    float: right;
+    margin-right: 5%;
+    color: #fff;
+    margin-top: 2%;
+    font-size: 0.8em;
+}
+.footer{
+	background-color: #535353;
+}
+.w3-conatiner.w3-quarter input{
+	border-radius: 5px;
+	background-color: #dedede;
+}
+.w3-container.w3-quarter h6{
+	font-size:12px !important;
+	color: #000;
+}
+
+/*-- Form --*/
+#formInput{
+	background-color: #dedede;
+	border-radius:7px;
+	margin-bottom:2%;
+	color: #000;
+}
+input, textarea, keygen, select, button {
+    color: purple;
+    font-family: Verdana !important;
+}
+
+
+/*-- Media Queries --*/
+@media only screen and (max-width: 700px) {
+	.w3-navbar{
+		width: 100%;
+		margin-left: 0 !important;
+	}
+	.w3-navitem {
+   		margin-left: 4%;
+   	}
+	.logo-text {
+    	font-size: 1.5em !important;
+	}
+	#myInput{
+		margin-right: 10%;
+	}
+	#button-holder {
+		margin-right:-75.5%;
+	}
+	.header{
+		font-size: 0.9em;
+	}
+	.header-text{
+    	margin-top: -10px;
+	}
+	.w3-row-padding{
+		height: auto;
+	}
+	.w3-col.s4{
+		width: 100% !important;
+	}
+	.w3-card w3-center{
+		width: 100%;
+	}
+	.w3-card img{
+		width: 100%;
+	}
+	.alignright {
+   		margin-right: 40%;
+   	}
+   	.w3-padding-16 {
+   		padding-top: 10px;
+    	padding-bottom: 10px; 
+	}
+	.w3-display-bottomright.w3-large.w3-container.w3-padding-16.w3-black{
+		height:50px;
+		width:150px;
+	}
+	.w3-display-left {
+   		top:2% !important;
+	}
+	.w3-display-right {
+    	top:2% !important;
+	}
